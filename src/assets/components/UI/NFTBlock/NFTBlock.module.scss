@@ -1,0 +1,44 @@
+.myNFT {
+	width: 280px;
+	height: 350px;
+	border-radius: 23px;
+	display: flex;
+	align-items: center;
+	border: 1px solid black;
+	padding: 14px;
+	box-shadow: 17.72258186340332px 11.762604713439941px 58.81301498413086px 0px
+		#c7c7c799;
+	display: flex;
+	flex-direction: column;
+
+	> img {
+		width: 250px;
+		height: 250px;
+		border-radius: 23px;
+	}
+
+	> h2 {
+		font-family: Poppins;
+		margin-bottom: 10px;
+		font-size: 30px !important;
+		font-weight: 600;
+		line-height: 30px;
+		letter-spacing: 0px;
+		color: #141416;
+	}
+
+	> .description {
+		margin: 0;
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.11762604117393494px;
+		color: #91949a;
+		> span {
+			font-family: Poppins;
+			color: #141416;
+			font-weight: 600;
+			font-size: 18px;
+		}
+	}
+}
